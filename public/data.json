@@ -1,1 +1,26 @@
-[{"title":"The Feature Suggester","subtitle":"The Feature Suggester\n - A \n - B","timeframe":"3 weeks","severity":"low","badge":"Ghost Mode","content":"Dude: Hey hab bisshen mit paar aus anderen Gruppen gesprochen und denke das wir am besten so viele davon implementieren sollten:\nDude: - Feature 1\nDude: - Feature 2 (Huge rework)\nDude: - Feature 3\nDude: - Feature 4 (Complete reverse of the current architecture)\n\nDude: Ich persönlich denke das 2, 4 am wichtigsten sind.\n\nCompetent Coworker: Das wär sehr viel Arbeit, in sehr kurzer Zeit.\n\nDude: Und die anderen Features, sind echt kein Problem, die können wir schnell angehen.\n\nCompetent Coworker: Ja, aber allein Feature 2 hat schon viele Side-Effects.\n\n[Team]: Starts to work on essential features.\nDude: Ghosts for 5 days."},{"title":"The Last-Minute Visionary","timeframe":"3 days before deadline","badge":"Vanishing Act","content":"Dude: Hey, we should really rework the whole UI, I think it would be great if we could do it like this: ...\n"},{"title":"The Bootcamp Enthusiast","timeframe":"1.8 days before deadline","badge":"All-Nighter Proposal","content":"Dude: Hey, I think we should really do this feature, are you up to do an All-nighter with me, like a bootcamp?\n\nCompetent Coworker: Dude, Im currently really busy with the current tasks, I can't do it.\n\nDude: But we really need this feature, I think it would be great if we could do it like this: ...\n...\nNext day:\n...\n\nDude: You finished the feature? I think it would be great if we could do it tonight, bootcamp style, so we can finish it in time.\n\nCompetent Coworker: Dude, there is no time to test it, we cannot just implement it like that, we need to test it first.\n...\n\nIn the end, Competent Coworker and the rest of the team fixed 57 bugs, and added 3 features, while Dude did not contribute anything meaningful in the last 5 weeks."}]
+[
+  {
+    "title": "The Feature Suggester",
+    "subtitle": "The ambitious visionary who disappears when work begins",
+    "timeframe": "3 weeks",
+    "severity": "medium",
+    "badge": "Ghost Mode",
+    "content": "**Dude:** Hey, I've been talking to people from other teams and I think we should implement ALL of these features:\n\n• Feature 1 (seems simple enough)\n• Feature 2 (complete system overhaul)\n• Feature 3 (minor addition)\n• Feature 4 (architectural nuclear option)\n\nPersonally, I think features 2 and 4 are absolutely critical for our success.\n\n**Competent Coworker:** That's... an enormous amount of work for a very short timeline.\n\n**Dude:** Oh, the other features are no big deal! We can knock those out super quickly.\n\n**Competent Coworker:** But Feature 2 alone has massive side effects across the entire codebase...\n\n*[Team starts working on actually essential features]*\n\n**Dude:** *Vanishes into the digital void for 5 days* 👻"
+  },
+  {
+    "title": "The Last-Minute Visionary",
+    "subtitle": "Peak creativity strikes at the worst possible moment",
+    "timeframe": "3 days before deadline",
+    "severity": "medium",
+    "badge": "Vanishing Act",
+    "content": "**Dude:** Hey team! I just had this AMAZING idea. We should completely redesign the entire UI from scratch. Picture this: a revolutionary new approach that will change everything...\n\n*[Proceeds to describe a beautiful but completely unrealistic design that would take months to implement]*\n\n**The Team:** *Stares in collective existential dread*\n\n**Competent Coworker:** We literally have 72 hours left and 15 critical bugs to fix.\n\n**Dude:** But think of the user experience! This could be our breakthrough moment!\n\n*[Dude disappears again, leaving the team to figure out reality]*"
+  },
+  {
+    "title": "The Bootcamp Enthusiast",
+    "subtitle": "Confusing desperation with productivity since day one",
+    "timeframe": "1.8 days before deadline",
+    "severity": "high",
+    "badge": "All-Nighter Proposal",
+    "content": "**Dude:** Alright team, hear me out. I know we're cutting it close, but what if we pulled an all-nighter? Real bootcamp style! We could implement this killer feature I've been thinking about...\n\n**Competent Coworker:** I'm already drowning in critical tasks. There's literally no bandwidth for new features.\n\n**Dude:** But this feature could be a game-changer! Just imagine if we could...\n\n*[24 hours later]*\n\n**Dude:** So, did you finish that thing? Because I was thinking we could do another all-nighter tonight and really push this feature through!\n\n**Competent Coworker:** There's no time for testing. We can't just throw untested code into production hours before deadline.\n\n**Dude:** Come on, live a little! What's the worst that could happen?\n\n---\n\n**Final Score:**\n- **The Team:** Fixed 57 critical bugs, implemented 3 essential features\n- **Dude:** Contributed exactly zero meaningful code in 5 weeks\n- **Dude's Confidence Level:** Somehow still at 100% 📈"
+  }
+]
