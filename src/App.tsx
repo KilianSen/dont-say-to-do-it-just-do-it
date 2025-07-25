@@ -132,7 +132,7 @@ function App() {
 	// Copy to clipboard function with toast feedback
 	const copyToClipboard = async () => {
 		try {
-			await navigator.clipboard.writeText(`https://${window.location.hostname}/`);
+			await navigator.clipboard.writeText(`${window.location}`);
 			toast.success('URL copied to clipboard! 📋', {
 				duration: 2000,
 				icon: '🎉',
@@ -476,7 +476,7 @@ ${content}`;
 									onClick={copyToClipboard}
 								>
 									<code className="text-sm text-green-600 dark:text-green-400 break-all">
-										https://{window.location.hostname}/
+										{window.location.toString()}
 									</code>
 									<motion.p
 										className="text-xs text-green-500 mt-1"
