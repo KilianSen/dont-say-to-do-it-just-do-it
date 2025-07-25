@@ -93,7 +93,7 @@ function App() {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await fetch('/data.json');
+				const response = await fetch('./data.json');
 				if (!response.ok) {
 					throw new Error(`HTTP error! status: ${response.status}`);
 				}
@@ -115,7 +115,7 @@ function App() {
 	useEffect(() => {
 		const fetchTerms = async () => {
 			try {
-				const response = await fetch('/terms.md');
+				const response = await fetch('./terms.md');
 				if (!response.ok) {
 					throw new Error('Network response was not ok');
 				}
@@ -510,7 +510,7 @@ ${content}`;
 							<div className="bg-white dark:bg-gray-900/50 p-4 rounded-lg border-l-4 border-primary">
 								<p className="font-medium text-primary mb-2">The reality check:</p>
 								<p>You might be stuck in "planning mode" when the team needs you in "doing mode."
-								It happens to the best of us! ���‍♀️</p>
+								It happens to the best of us! </p>
 							</div>
 						</CardContent>
 					</Card>
@@ -527,7 +527,7 @@ ${content}`;
 									<h4 className="font-semibold text-green-700 dark:text-green-300">Instead of saying:</h4>
 									<ul className="space-y-2 text-sm text-muted-foreground">
 										<li>❌ "We should refactor this"</li>
-										<li>�� "Someone needs to fix this bug"</li>
+										<li>❌ "Someone needs to fix this bug"</li>
 										<li>❌ "We need better documentation"</li>
 										<li>❌ "This feature would be nice"</li>
 									</ul>
