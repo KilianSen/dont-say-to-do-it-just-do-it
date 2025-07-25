@@ -337,7 +337,6 @@ ${content}`;
 							<p className="text-sm text-orange-600 dark:text-orange-300 mt-2">Hours spent discussing, not doing</p>
 						</Card>
 					</motion.div>
-					// @ts-expect-error ignore
 					<motion.div
 						// @ts-expect-error ignore
 						variants={cardVariants} whileHover="hover">
